@@ -3,7 +3,7 @@ import { InMemoryUsersRepository } from "../../repositories/in-memory/InMemoryUs
 import { AuthenticateUserUseCase } from "./AuthenticateUserUseCase";
 import { IncorrectEmailOrPasswordError } from "./IncorrectEmailOrPasswordError";
 
-describe("Authenticate user", () => {
+describe("Authenticate user use case", () => {
   let inMemoryUsersRepository: InMemoryUsersRepository;
   let authenticateUserUseCase: AuthenticateUserUseCase;
 

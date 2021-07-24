@@ -2,7 +2,7 @@ import { InMemoryUsersRepository } from "../../repositories/in-memory/InMemoryUs
 import { ShowUserProfileError } from "./ShowUserProfileError";
 import { ShowUserProfileUseCase } from "./ShowUserProfileUseCase";
 
-describe("Show user profile", () => {
+describe("Show user profile use case", () => {
   let showUserProfileUseCase: ShowUserProfileUseCase;
   let inMemoryUsersRepository: InMemoryUsersRepository;
 

@@ -1,11 +1,10 @@
 import { InMemoryUsersRepository } from "../../repositories/in-memory/InMemoryUsersRepository";
-import { UsersRepository } from "../../repositories/UsersRepository";
 import { CreateUserError } from "./CreateUserError";
 import { CreateUserUseCase } from "./CreateUserUseCase";
 
 
 
-describe("Create user", () => {
+describe("Create user use case", () => {
   let inMemoryUsersRepository: InMemoryUsersRepository;
   let createUserUseCase: CreateUserUseCase;
 
